@@ -7,7 +7,7 @@ I’m **Aidan Jones**, a junior studying **Computer Science at the University of
 
 ---
 
-## 🧑‍💻 **About Me**
+##  **About Me**
 
 I am a junior pursuing a **B.A. in Computer Science** at the University of Washington Tacoma.  
 My interests include:
@@ -113,7 +113,7 @@ Experience with C++, OOP design, debugging, and graphics programming.
 - Practice data structures, algorithms, and interview prep  
 ---
 
-## 📄 **Resume**
+## **Resume**
 
 You can download my resume here:
 
