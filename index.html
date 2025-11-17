@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Aidan Jones — Portfolio</title>
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial, sans-serif;
+			background: linear-gradient(135deg, #1e3c72, #2a5298);
+			color: white;
+		}
+
+		nav {
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			background: rgba(0, 0, 0, 0.3);
+			padding: 15px 0;
+			position: sticky;
+			top: 0;
+			backdrop-filter: blur(5px);
+		}
+
+		nav button {
+			background: #ffffff33;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 6px;
+			cursor: pointer;
+			color: white;
+			font-size: 16px;
+			transition: 0.2s ease;
+		}
+
+		nav button:hover {
+			background: #ffffff55;
+		}
+
+		section {
+			display: none;
+			padding: 40px;
+			max-width: 900px;
+			margin: auto;
+		}
+
+		section.active {
+			display: block;
+		}
+
+		h1, h2, h3 {
+			color: #ffdf91;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<button onclick="showSection('about')">About</button>
+		<button onclick="showSection('projects')">Projects</button>
+		<button onclick="showSection('experience')">Experience</button>
+		<button onclick="showSection('contact')">Contact</button>
+	</nav>
+
+	<section id="about" class="active">
+		<h1>Aidan Jones — Portfolio</h1>
+		<p>Welcome to my personal portfolio! I'm <strong>Aidan Jones</strong>, a junior studying <strong>Computer Science at the University of Washington Tacoma</strong>, passionate about software engineering, cybersecurity, networking, and building interactive applications.</p>
+	</section>
+
+	<section id="projects">
+		<h2>Projects</h2>
+		<h3>Discord Bot (2024)</h3>
+		<ul>
+			<li>Java, JDA Library</li>
+			<li>Event-driven commands, role systems, APIs, data structures</li>
+		</ul>
+
+		<h3>Pong-Style Game Engine (2025)</h3>
+		<ul>
+			<li>C++, SFML</li>
+			<li>Real-time physics, collision detection, graphics programming</li>
+		</ul>
+	</section>
+
+	<section id="experience">
+		<h2>Experience & Clubs</h2>
+		<h3>Tech Startup Club</h3>
+		<p>Worked with Go, SQL, API integration, and web app development.</p>
+
+		<h3>Game Design Club</h3>
+		<p>Experience with Unreal, Unity, 3D modeling, gameplay design.</p>
+
+		<h3>GitHired Club</h3>
+		<p>Practiced DSA, algorithms, interview prep.</p>
+	</section>
+
+	<section id="contact">
+		<h2>Contact</h2>
+		<p><strong>Email:</strong> aidansj@uw.edu</p>
+		<p><strong>Phone:</strong> 808-675-6345</p>
+		<p><strong>LinkedIn:</strong> LINK HERE</p>
+		<p><strong>GitHub:</strong> LINK HERE</p>
+	</section>
+
+	<script>
+		function showSection(id) {
+			document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+			document.getElementById(id).classList.add('active');
+		}
+	</script>
+</body>
+</html>
