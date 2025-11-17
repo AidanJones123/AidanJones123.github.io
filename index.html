@@ -211,3 +211,17 @@
 		function showSection(id) {
 			document.querySelectorAll('section').forEach(sec => sec.classList.remove
 
+														 <script>
+    function showSection(id) {
+        // Hide all sections
+        document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+
+        // Show the selected section
+        const selected = document.getElementById(id);
+        if (selected) {
+            selected.classList.add('active');
+        }
+    }
+</script>
+
+
