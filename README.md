@@ -3,7 +3,7 @@
 Welcome to my personal portfolio!  
 I’m **Aidan Jones**, a junior studying **Computer Science at the University of Washington Tacoma**, passionate about software engineering, cybersecurity, networking, and building interactive applications.
 
-> **“I build software, learn constantly, and love working with teams.”**
+> **“I like to learn constantly, and love working with teams.”**
 
 ---
 
@@ -12,11 +12,10 @@ I’m **Aidan Jones**, a junior studying **Computer Science at the University of
 I am a junior pursuing a **B.A. in Computer Science** at the University of Washington Tacoma.  
 My interests include:
 
-- Software engineering  
-- Cybersecurity & digital forensics  
+- Software engineering   
 - Networking  
 - 3D modeling & game development  
-- Building interactive applications and games
+- Building interactive applications
 
 I enjoy collaborating with others, learning new tools, and working in team-based learning environments.
 
@@ -24,10 +23,9 @@ Outside of academics, I participate in several tech-focused clubs and enjoy maki
 
 ---
 
-## 🚀 **Projects**  
-*(Work in Progress — more updates coming soon)*
+## **Projects**  
 
-### 🎮 **Discord Bot (2024)**
+### **Discord Bot (2024)**
 **Languages/Tools:** Java, JDA Library  
 **Description:**  
 Developed a fully functional Discord bot using Java and the JDA library.  
@@ -49,7 +47,7 @@ Debugging, testing, version control, and deploying a multi-feature application.
 
 ---
 
-### 🕹️ **Pong-Style Game Engine (2025)**  
+###**Pong-Style Game Engine (2025)**  
 **Languages/Tools:** C++, SFML  
 **Description:**  
 Built a small game engine using SFML to create a polished Pong clone.  
@@ -68,18 +66,7 @@ Experience with C++, OOP design, debugging, and graphics programming.
 ➡️ **Repository:** *[Add link here]*  
 ➡️ **Screenshots:** *[Add images here]*  
 
----
-
-### 💼 **Other Projects (Coming Soon)**  
-- Web application with front-end/back-end integration (Go, SQL, API design)  
-- Unreal Engine & Unity prototypes  
-- Additional coursework projects  
-
-*(You can add sections as you complete them.)*
-
----
-
-## 🛠️ **Skills**
+## **Technical Experience**
 
 ### **Programming Languages**
 - Java  
@@ -90,11 +77,11 @@ Experience with C++, OOP design, debugging, and graphics programming.
 - Windows & Linux  
 - IntelliJ IDEA 2025  
 - CLion  
-- Geany  
+- Geany
+- - Git & GitHub
 - Unreal Engine  
 - Unity  
-- Blender  
-- Git & GitHub  
+- Blender 
 
 ### **Relevant Coursework**
 - Computer Science I–II  
@@ -104,25 +91,11 @@ Experience with C++, OOP design, debugging, and graphics programming.
 - Intro to Operating Systems  
 - Networking Concepts  
 - Technical Writing  
-- CHFI (Computer Hacking Forensic Investigator)
-
-### **Certifications (Optional)**
-- *[Add certificates or badges here]*
-
 ---
 
-## 🏫 **Experience / Club Involvement**
+## **Experience / Club Involvement**
 
-### 🎮 **Game Design Club**
-- Attend coding and game design workshops  
-- Work on Unreal Engine and Unity projects  
-- Learn about 3D modeling, graphics, and gameplay design  
-
-### 💼 **GitHired Club**
-- Collaborate with students to solve coding challenges  
-- Practice data structures, algorithms, and interview prep  
-
-### 🚀 **Tech Startup Club**
+### **Tech Startup Club**
 - Work with a small student team on a university web application  
 - Experience with:
   - Go  
@@ -130,45 +103,32 @@ Experience with C++, OOP design, debugging, and graphics programming.
   - Back-end & front-end integration  
   - API connections  
 
+###  **Game Design Club**
+- Attend coding and game design workshops  
+- Work on Unreal Engine and Unity projects  
+- Learn about 3D modeling, graphics, and gameplay design  
+
+### **GitHired Club**
+- Collaborate with students to solve coding challenges  
+- Practice data structures, algorithms, and interview prep  
 ---
 
 ## 📄 **Resume**
 
 You can download my resume here:
 
-👉 **[resume.pdf](./resume.pdf)**  
-*(Be sure to upload your resume file as `resume.pdf` in the same repo.)*
+PLACEHOLDER
 
 ---
 
-## 📬 **Contact**
+##**Contact**
 
 **Email:** aidansj@uw.edu  
 **Phone:** 808-675-6345  
 
 **Connect with me:**  
-- LinkedIn: *[Add your LinkedIn link]*  
-- GitHub: https://github.com/aidanjones  
-- Portfolio Projects: *[Add additional links if needed]*  
+- LinkedIn: LINKED IN LINK
+- GitHub: GITHUB LINK  
+- Portfolio Projects: Temporarily Empty
 
 ---
-
-## 🌐 **Site Navigation**
-
-- **Home** — Introduction and overview  
-- **About Me** — Background and interests  
-- **Projects** — Work in progress & completed software  
-- **Skills** — Tools, languages, coursework  
-- **Experience** — Clubs, hackathons, team involvement  
-- **Resume** — Downloadable PDF  
-- **Contact** — How to reach me  
-
----
-
-## ✔️ **Notes for Initial Faculty Feedback**
-
-- All required sections included  
-- Clean, readable Markdown formatting  
-- Ready for GitHub Pages  
-- Easy to update as new projects are completed  
-
