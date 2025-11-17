@@ -4,38 +4,51 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Aidan Jones — Portfolio</title>
+
+	<!-- Cayman Theme Base Styles (simplified static version) -->
 	<style>
+		/* Cayman-like colors */
+		:root {
+			--bg: #f5f5f5;
+			--text: #333;
+			--accent: #159957;
+			--accent2: #155799;
+		}
+
 		body {
 			margin: 0;
-			font-family: Arial, sans-serif;
-			background: #1a1a1a;
-			color: #e6e6e6;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			background: var(--bg);
+			color: var(--text);
+			line-height: 1.6;
 		}
 
 		nav {
 			display: flex;
 			justify-content: center;
 			gap: 20px;
-			background: #111;
-			padding: 15px 0;
+			background: linear-gradient(120deg, var(--accent), var(--accent2));
+			padding: 18px 0;
 			position: sticky;
 			top: 0;
-			border-bottom: 1px solid #333;
+			z-index: 10;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 		}
 
 		nav button {
-			background: #2a2a2a;
-			border: 1px solid #444;
+			background: white;
+			border: none;
 			padding: 10px 20px;
 			border-radius: 6px;
 			cursor: pointer;
-			color: white;
+			color: var(--accent2);
 			font-size: 16px;
 			transition: 0.2s ease;
+			font-weight: bold;
 		}
 
 		nav button:hover {
-			background: #3a3a3a;
+			background: #e3e3e3;
 		}
 
 		section {
@@ -50,11 +63,29 @@
 		}
 
 		h1, h2, h3 {
-			color: #66b2ff;
+			color: var(--accent2);
 		}
 
-		ul li {
-			margin: 6px 0;
+		blockquote {
+			border-left: 4px solid var(--accent);
+			padding-left: 15px;
+			color: #444;
+			font-style: italic;
+		}
+
+		.resume-button {
+			display: inline-block;
+			background: var(--accent2);
+			color: white;
+			padding: 12px 18px;
+			border-radius: 6px;
+			text-decoration: none;
+			font-weight: bold;
+			transition: 0.2s;
+		}
+
+		.resume-button:hover {
+			background: var(--accent);
 		}
 	</style>
 </head>
@@ -117,9 +148,8 @@
 		<h2>Experience / Club Involvement</h2>
 		<h3>Tech Startup Club</h3>
 		<ul>
-			<li>Working with a small team of senior students on a web application 
-			for the University of Washington and attending workshops about systems architecture. </li>
-			<li>Experience with Go, SQL / SQLite, backend/frontend integration, API connections</li>
+			<li>Working with a small team of senior students on a web application for the University of Washington.</li>
+			<li>Experience with Go, SQL/SQLite, backend/frontend integration, and API systems.</li>
 		</ul>
 
 		<h3>Game Design Club</h3>
@@ -133,6 +163,9 @@
 			<li>Solved coding challenges</li>
 			<li>Practiced data structures, algorithms, and interview prep</li>
 		</ul>
+
+		<h2>Resume</h2>
+		<a class="resume-button" href="AidanJones_Resume2025 (1).docx.pdf" target="_blank">📄 View My Resume</a>
 	</section>
 
 	<section id="projects">
@@ -176,9 +209,5 @@
 
 	<script>
 		function showSection(id) {
-			document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
-			document.getElementById(id).classList.add('active');
-		}
-	</script>
-</body>
-</html>
+			document.querySelectorAll('section').forEach(sec => sec.classList.remove
+
