@@ -8,24 +8,24 @@
 		body {
 			margin: 0;
 			font-family: Arial, sans-serif;
-			background: linear-gradient(135deg, #1e3c72, #2a5298);
-			color: white;
+			background: #1a1a1a;
+			color: #e6e6e6;
 		}
 
 		nav {
 			display: flex;
 			justify-content: center;
 			gap: 20px;
-			background: rgba(0, 0, 0, 0.3);
+			background: #111;
 			padding: 15px 0;
 			position: sticky;
 			top: 0;
-			backdrop-filter: blur(5px);
+			border-bottom: 1px solid #333;
 		}
 
 		nav button {
-			background: #ffffff33;
-			border: none;
+			background: #2a2a2a;
+			border: 1px solid #444;
 			padding: 10px 20px;
 			border-radius: 6px;
 			cursor: pointer;
@@ -35,7 +35,7 @@
 		}
 
 		nav button:hover {
-			background: #ffffff55;
+			background: #3a3a3a;
 		}
 
 		section {
@@ -50,56 +50,125 @@
 		}
 
 		h1, h2, h3 {
-			color: #ffdf91;
+			color: #66b2ff;
+		}
+
+		ul li {
+			margin: 6px 0;
 		}
 	</style>
 </head>
 <body>
 	<nav>
-		<button onclick="showSection('about')">About</button>
+		<button onclick="showSection('home')">About / Experience</button>
 		<button onclick="showSection('projects')">Projects</button>
-		<button onclick="showSection('experience')">Experience</button>
 		<button onclick="showSection('contact')">Contact</button>
 	</nav>
 
-	<section id="about" class="active">
+	<section id="home" class="active">
 		<h1>Aidan Jones — Portfolio</h1>
 		<p>Welcome to my personal portfolio! I'm <strong>Aidan Jones</strong>, a junior studying <strong>Computer Science at the University of Washington Tacoma</strong>, passionate about software engineering, cybersecurity, networking, and building interactive applications.</p>
+		<blockquote>“I like to learn constantly, and love working with teams.”</blockquote>
+
+		<h2>About Me</h2>
+		<p>I am pursuing a <strong>B.A. in Computer Science</strong>. My interests include:</p>
+		<ul>
+			<li>Software engineering</li>
+			<li>Networking</li>
+			<li>3D modeling & game development</li>
+			<li>Building interactive applications</li>
+		</ul>
+
+		<p>I enjoy collaborating with others, learning new tools, and working in team-based environments. Outside of academics, I participate in several tech-focused clubs and love connecting with other students and developers.</p>
+
+		<h2>Technical Experience</h2>
+		<h3>Programming Languages</h3>
+		<ul>
+			<li>Java</li>
+			<li>C++</li>
+			<li>HTML / CSS</li>
+		</ul>
+
+		<h3>Software & Tools</h3>
+		<ul>
+			<li>Windows & Linux</li>
+			<li>IntelliJ IDEA 2025</li>
+			<li>CLion</li>
+			<li>Geany</li>
+			<li>Git & GitHub</li>
+			<li>Unreal Engine</li>
+			<li>Unity</li>
+			<li>Blender</li>
+		</ul>
+
+		<h3>Relevant Coursework</h3>
+		<ul>
+			<li>Computer Science I–II</li>
+			<li>Programming Practicum</li>
+			<li>Discrete Structures</li>
+			<li>Calculus I–II</li>
+			<li>Intro to Operating Systems</li>
+			<li>Networking Concepts</li>
+			<li>Technical Writing</li>
+		</ul>
+
+		<h2>Experience / Club Involvement</h2>
+		<h3>Tech Startup Club</h3>
+		<ul>
+			<li>Worked on a student team building a university web application</li>
+			<li>Experience with Go, SQL / SQLite, backend/frontend integration, API connections</li>
+		</ul>
+
+		<h3>Game Design Club</h3>
+		<ul>
+			<li>Attended game dev and coding workshops</li>
+			<li>Worked with Unreal, Unity, and 3D modeling</li>
+		</ul>
+
+		<h3>GitHired Club</h3>
+		<ul>
+			<li>Solved coding challenges</li>
+			<li>Practiced data structures, algorithms, and interview prep</li>
+		</ul>
 	</section>
 
 	<section id="projects">
 		<h2>Projects</h2>
+
 		<h3>Discord Bot (2024)</h3>
+		<p><strong>Languages/Tools:</strong> Java, JDA Library</p>
+		<p><strong>Description:</strong><br>Developed a fully functional Discord bot using Java and the JDA library.</p>
 		<ul>
-			<li>Java, JDA Library</li>
-			<li>Event-driven commands, role systems, APIs, data structures</li>
+			<li>Event-driven command handling</li>
+			<li>Role management</li>
+			<li>Leaderboard systems</li>
+			<li>API integration</li>
+			<li>Stack, Map, and Set data structures</li>
+			<li>Recursive utilities</li>
+			<li>Modular OOP architecture</li>
 		</ul>
+		<p><strong>Key Skills Gained:</strong> Debugging, testing, version control, and deploying a multi-feature application.</p>
 
 		<h3>Pong-Style Game Engine (2025)</h3>
+		<p><strong>Languages/Tools:</strong> C++, SFML</p>
+		<p><strong>Description:</strong><br>Built a small game engine using SFML to create a polished Pong clone.</p>
 		<ul>
-			<li>C++, SFML</li>
-			<li>Real-time physics, collision detection, graphics programming</li>
+			<li>Real-time game physics</li>
+			<li>Collision detection</li>
+			<li>Frame-rate independent motion</li>
+			<li>Vector math for ball physics</li>
+			<li>Randomization logic</li>
+			<li>Event-driven input handling</li>
 		</ul>
-	</section>
-
-	<section id="experience">
-		<h2>Experience & Clubs</h2>
-		<h3>Tech Startup Club</h3>
-		<p>Worked with Go, SQL, API integration, and web app development.</p>
-
-		<h3>Game Design Club</h3>
-		<p>Experience with Unreal, Unity, 3D modeling, gameplay design.</p>
-
-		<h3>GitHired Club</h3>
-		<p>Practiced DSA, algorithms, interview prep.</p>
+		<p><strong>Key Skills Gained:</strong> Experience with C++, OOP design, debugging, and graphics programming.</p>
 	</section>
 
 	<section id="contact">
 		<h2>Contact</h2>
 		<p><strong>Email:</strong> aidansj@uw.edu</p>
 		<p><strong>Phone:</strong> 808-675-6345</p>
-		<p><strong>LinkedIn:</strong> LINK HERE</p>
-		<p><strong>GitHub:</strong> LINK HERE</p>
+		<p><strong>LinkedIn:</strong> LINKED IN LINK</p>
+		<p><strong>GitHub:</strong> GITHUB LINK</p>
 	</section>
 
 	<script>
